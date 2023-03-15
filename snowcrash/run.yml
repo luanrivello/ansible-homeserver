@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yes
+  gather_facts: false
+
+  tasks:
+    - import_tasks: tasks/essential.yml
+
+    - import_tasks: tasks/endlessh.yml
+
+
+      

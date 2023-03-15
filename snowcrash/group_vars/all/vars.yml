@@ -1,0 +1,8 @@
+ansible_ssh_port: 1701
+username: snow
+packages:
+  - neofetch
+  - neovim
+  - htop
+  - build-essential
+  - libc6-dev
